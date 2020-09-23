@@ -1,0 +1,49 @@
+# section information
+section:
+  name: Skills
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Python Development
+  icon: "images/skills/python_logo.png"
+  summary: "Experienced in working with python. I am capable of writing well crafted pythonic code."
+  url: "https://www.python.org/"
+
+- name: Sci-kit Learn
+  icon: "images/skills/scikit-learn-logo.png"
+  summary: "Experienced in using Scikit-Learn's modules and classes for supervised, and unsupervised learning tasks."
+  url: "https://scikit-learn.org/"
+
+- name: PyTorch
+  icon: "images/skills/pytorch.png"
+  summary: "Capable of leveraging PyTorch to build Deep Learning models, and different types of neural networks."
+  url: "https://pytorch.org/"
+
+- name: Docker
+  icon: "images/skills/docker.png"
+  summary: "Experienced in building Docker containers, and use them for the deployment of machine learning models along with Flask APIs"
+  url: "https://www.docker.com/"
+
+- name: Pandas
+  icon: "images/skills/pandas-python.png"
+  summary: "Capable of using Pandas to perform different data loading, preprocessing and preparation tasks."
+  url: "https://pandas.pydata.org/"
+
+# - name: Linux
+#   icon: "images/skills/linux.png"
+#   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+
+- name: Git
+  icon: "images/skills/Git.png"
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  url: "https://git-scm.com/"
+
+# - name: C++
+#   icon: "images/skills/c++.png"
+#   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."

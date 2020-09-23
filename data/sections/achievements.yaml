@@ -1,0 +1,23 @@
+# section information
+section:
+  name: Achievements
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Top Podcast in Egypt
+  image: images/achievements/podcast.jpg
+  summary: Hayah Aktar was the most listened to podcast in Egypt.
+# - title: Champion
+#   image: images/achievements/sport.jpg
+#   summary: Champion in cycling inter-city cycling championship 2020.
+- title: Graduation
+  image: images/achievements/graduation-cap.jpg
+  summary: Received Bachelor of Science (B.Sc.) in Aerospace Engineering from Cairo University.
+# - title: Award Winner
+#   image: images/achievements/woman-winner.jpg
+#   summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus architecto minus facere vero?

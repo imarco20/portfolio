@@ -1,0 +1,79 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: "Marco"
+theme: "portfolio"
+
+# Allow raw html in markdown file
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+# Enable Google Analytics
+googleAnalytics: UA-XXXXXXXXX-X
+
+# Enable Disqus forum
+disqusShortname: does-not-exist
+
+# Enable global emoji support
+enableEmoji: false
+
+
+# Custom parameters
+params:
+  # Copyright Notice
+  copyright: © 2020 Copyright.
+
+  # Meta description for your site.  This will help the search engines to find your site.
+  description: Portfolio and personal blog of Marco Mounir.
+
+  # background image of the landing page
+  background: "images/background2.jpg"
+
+  # Provide logos for your site. The inverted logo will be used in the initial
+  # transparent navbar and the main logo will be used in the non-transparent navbar.
+  # It will be default to the theme logos if not provided.
+  # logo:
+  #   main: "/static/images/m.jpg"
+  #   inverted: "/static/images/m.jpg"
+
+  # GitHub repo URL of your site
+  gitRepo: https://github.com/imarco20
+
+  # specify whether you want to write blog post or not
+  enableBlogPost: false
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: false
+
+  # specify the list of custom menus that you want to show in the top navbar.
+  # they will be separated by a divider from the main menus.
+  customMenus:
+  - name: Blog
+    url: https://imarco20.github.io/meaningful-data/
+
+  # Provide newsletter configuration. This feature hasn't been implemented yet.
+  # Currently, you can just hide it from the footer.
+  newsletter:
+    enable: false
+
+  # some information about you
+  author:
+    name: "Marco Mounir"
+    nickname: "Marco"
+    image: "images/Marco.png"
+    # greeting message before your name. it will default to "Hi! I am" if not provided
+    greeting: "Hi, I am"
+    # give your some contact information. they will be used in the footer
+    contactInfo:
+      email: "marco@carawan.fm"
+      phone: "+2-0123456789"
+    # a summary of what you do
+    summary:
+    - I am a Data Scientist
+    - I work with Python
+    - I love to interview influential people on my podcast

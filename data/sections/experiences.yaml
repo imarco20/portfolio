@@ -1,0 +1,64 @@
+# section information
+section:
+  name: Experiences
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Carawan
+    url: "https://carawan.fm"
+    location: Cairo
+    # company overview
+    overview: Carawan is a leading podcast network in Egypt. It produces "Hayah Aktar" podcast, which is one of the most listened to podcasts in the Arab world.
+  positions:
+  - designation: Founder and Podcast Host
+    start: Sep 2019
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Apr 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - The host of ​ Hayah Aktar ​ podcast. ​ Hayah Aktar ​ is a leading Egyptian Podcast and one of the most listened to podcasts in the Arab World.
+    - Interviewed more than 50 of the most influential entrepreneurs in Egypt.
+    - Audio editing, mixing, and mastering for podcast episodes.
+
+  # - designation: Junior Software Engineer
+  #   start: Nov 2017
+  #   end: Oct 2019
+  #   responsibilities:
+  #   - Implement and test xyz feature for abc tool.
+  #   - Support client for abc tool.
+  #   - Learn k,d,w technology for xyz.
+
+- company:
+    name: Increase
+    url: "https://www.increaseeg.com"
+    location: Cairo
+    overview: Increase is my first startup that worked in the field of training and development. We were liscenced to deliver "Thinking Into Results", one of the leading peak performance coaching programs in the world.
+  positions:
+  - designation: Founder
+    start: Aug 2015
+    end: July 2018
+    responsibilities:
+    - Crafted and delivered training sessions to our customers.
+    - Written articles for Increase's blog and managed our weekly newsletter.
+    - Optimized Increase's website for Search Engines (SEO) and did keyword research.
+    - Maintained Social Media Content development for our digital accounts.
+
+# - company:
+#     name: Intern Counting Company (ICC).
+#     url: "https://www.intern.com"
+#     location: Intern Land
+#     overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+#   positions:
+#   - designation: Intern
+#     start: Jun 2015
+#     end: Jan 2016
+#     responsibilities:
+#     - Count lost of interns.
+#     - Count more interns.
+#     - Count me as an intern.
