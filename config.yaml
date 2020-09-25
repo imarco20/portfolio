@@ -1,7 +1,7 @@
 baseURL: http://example.org/
 languageCode: en-us
 title: "Marco"
-theme: "portfolio"
+theme: "toha"
 
 # Allow raw html in markdown file
 markup:
