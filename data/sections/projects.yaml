@@ -19,17 +19,36 @@ buttons:
   filter: "clustering"
 - name: NLP
   filter: "nlp"
+- name: Computer Vision
+  filter: "vision"
 
 # your projects
 projects:
-- name: Bluebook for Bulldozers | Kaggle Competition
-  # logo: images/projects/kubernetes.png
-  # role: Contributor
-  # timeline: "March 2018 - Present"
-  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Created a model that predicts auction sale prices for Bulldozers. My model’s score ends up on top of the competition’s Leaderboard.
-  tags: ["regression", "all", "machine-learning"]
+
+- name: Customer Segmentation & Cohort Analysis For Uk-based non-store Online Retail
+  repo: https://github.com/imarco20/customer_segmentation_for_online_retail_store
+  summary: Created customer segments for a UK-based non-store online retails using Recency, Frequency, and Monetary segments.
+  tags: ["clustering", "all"] 
+
+- name: Who will make a donation?
+  repo: https://github.com/imarco20/who_will_make_a_donation
+  summary: Constructed a model that accurately predicts whether an individual makes more than $50,000. Individuals making more than $50k are more likely to donate to Charity.
+  tags: ["classification", "all"] 
+
+- name: The State of World Happiness in 2019
+  repo: https://github.com/imarco20/state_of_world_happiness_in_2019
+  summary: Happiness is what we seek. It makes sense to understand what are the factors that affect the state of happiness all over the world. In this project, I try answering this question by working on the data provided by "The World Happiness Report".
+  tags: ["regression", "all"]
+
+- name: Detecting Pneumonia Using PyTorch and Fastai
+  repo: https://github.com/imarco20/detecting_pneumonia
+  summary: Built a model that accurately predicts whether an individual has Pneumonia by looking at his Chest X-ray images.
+  tags: ["vision", "all"] 
+
+- name: Exploratory Data Analysis for House Prices Dataset
+  repo: https://github.com/imarco20/house_prices_eda
+  summary: Exploratory Data Analysis for features that influence house prices.
+  tags: ["all", "machine-learning"] 
 
 - name: Tweet Sentiment Analysis Web App
   # logo: images/projects/tensorflow.png
@@ -38,21 +57,26 @@ projects:
   # repo: https://github.com/tensorflow/tensorflow
   #url: ""
   summary: Built a web app that can receive tweets, and returns the tweet’s sentiment.
-  tags: ["nlp", "machine-learning"]
+  tags: ["nlp"]
 
 - name: Telco Customer Churn | Kaggle Competition
   # role: Team Lead
   # timeline: "Jan 2017 - Nov 2017"
-  # url: "https://www.example.com"
+  repo: https://github.com/imarco20/Telco_customer_churn_prediction
   summary: Built a high accuracy model that can predict customer churn based on the customer’s information.
   tags: ["classification","all"]
 
-- name: AZDIAS Customer Segmentation
-  # logo: images/projects/no-code.png
-  # role: Nothing
-  # timeline: "Oct 2019 - Dec 2019"
-  # repo: https://github.com/kelseyhightower/nocode
-  #url: ""
+- name: Bluebook for Bulldozers | Kaggle Competition
+  # logo: images/projects/kubernetes.png
+  # role: Contributor
+  # timeline: "March 2018 - Present"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Created a model that predicts auction sale prices for Bulldozers. My model’s score ends up on top of the competition’s Leaderboard.
+  tags: ["regression"]
+
+- name: Arvato Customer Segmentation
+  repo: https://github.com/imarco20/Arvato_customer_segments
   summary: Applied unsupervised learning techniques to identify segments of the population that form the core customer base for AZDIAS company in Germany.
   tags: ["clustering", "all"]
 
